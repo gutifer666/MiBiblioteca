@@ -12,16 +12,16 @@ class Menu {
         
         while (select != 6) {
         
-        System.out.println("Menu de opciones:");
+        System.out.println("Menú de opciones:");
 	System.out.println();		
-	System.out.println("1_Anadir libro a la biblioteca.");
+	System.out.println("1_Añadir libro a la biblioteca.");
 	System.out.println("2_Eliminar libro de la biblioteca.");
 	System.out.println("3_Buscar libro.");
 	System.out.println("4_Listado de libros.");
 	System.out.println("5_Filtrar por genero.");
 	System.out.println("6_Salir.");
         System.out.println();
-        System.out.println("Elije una opcion:");
+        System.out.println("Elije una opción:");
         
         select = gestorIO.inByte();
         
