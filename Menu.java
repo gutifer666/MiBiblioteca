@@ -47,7 +47,7 @@ class Menu {
                     System.out.println("Salir");
                     break;
             default:
-                    System.out.println("Opción no reconocida.");
+                    System.out.println("Elija una opción correcta.");
                     break;
 			}
 			
